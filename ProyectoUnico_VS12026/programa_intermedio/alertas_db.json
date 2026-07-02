@@ -1,0 +1,241 @@
+[
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo creado/modificado",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 22:37:13"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 22:37:00"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo creado/modificado",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 22:34:12"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo creado/modificado",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 22:29:52"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo 'Simulated.Worm.Spreader.txt' puesto en cuarentena (chmod 0000)",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:29:20"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Hash malicioso detectado en 'Simulated.Worm.Spreader.txt' — Firma: Simulated.Worm.Spreader",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:29:08"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo 'Simulated.Backdoor.Listener.txt' puesto en cuarentena (chmod 0000)",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:25:38"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Hash malicioso detectado en 'Simulated.Backdoor.Listener.txt' — Firma: Simulated.Backdoor.Listener",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:25:28"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo 'Simulated.Spyware.Tracker.txt' puesto en cuarentena (chmod 0000)",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:09:00"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo 'test_worm.txt' puesto en cuarentena (chmod 0000)",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:08:58"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Hash malicioso detectado en 'Simulated.Spyware.Tracker.txt' — Firma: Simulated.Spyware.Tracker",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:08:53"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo 'test_worm.txt' puesto en cuarentena (chmod 0000)",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:08:16"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Hash malicioso detectado en 'test_worm.txt' — Firma: Simulated.Worm.Spreader",
+    "severidad": "HIGH",
+    "fecha": "2026-06-25 22:06:35"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo creado/modificado",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 22:05:19"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo creado/modificado",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 22:04:57"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Monitoreo del sistema activado",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 22:03:44"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Monitoreo del sistema desactivado",
+    "severidad": "MEDIUM",
+    "fecha": "2026-06-25 22:03:43"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 21:48:07"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 21:36:15"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-25 21:11:20"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Nuevas amenazas agregadas a la base de datos local",
+    "severidad": "MEDIUM",
+    "fecha": "2026-06-16 20:57:48"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:50:39"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Actualizacion base de datos local de hashes malignos",
+    "severidad": "MEDIUM",
+    "fecha": "2026-06-16 20:45:31"
+  },
+  {
+    "tipo": "archivos",
+    "descripcion": "Archivo creado/modificado",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:44:49"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:35:39"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:35:04"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Monitoreo de metricas activado",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:43"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Monitoreo del sistema activado",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:43"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:43"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:43"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:42"
+  },
+  {
+    "tipo": "sistema",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:22"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Monitoreo de metricas desactivado",
+    "severidad": "MEDIUM",
+    "fecha": "2026-06-16 20:29:10"
+  },
+  {
+    "tipo": "sistema",
+    "descripcion": "Monitoreo del sistema desactivado",
+    "severidad": "MEDIUM",
+    "fecha": "2026-06-16 20:29:10"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:10"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:10"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:29:09"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:23:10"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:19:03"
+  },
+  {
+    "tipo": "sesion",
+    "descripcion": "Inicio de sesion exitoso",
+    "severidad": "LOW",
+    "fecha": "2026-06-16 20:18:45"
+  }
+]

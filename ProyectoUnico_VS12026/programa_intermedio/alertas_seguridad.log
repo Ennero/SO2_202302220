@@ -1,0 +1,52 @@
+[2026-06-05 20:22:00] ALERTA: Archivo malicioso detectado: virus.txt | Hash: c52a167bcc03d3adcc825c285155d85a99d38b074696d60d48863b975e2ea105
+[2026-06-05 21:03:45] ALERTA: Archivo malicioso detectado: virus.txt | Hash: c52a167bcc03d3adcc825c285155d85a99d38b074696d60d48863b975e2ea105
+[2026-06-05 21:04:31] ALERTA: Archivo malicioso detectado: virus.txt | Hash: 77769acacc595f82659bb6d656f372f99be75799066348b81f7fe4e70152efed
+[2026-06-07 21:44:44] ALERTA: Simulated threat: Simulated.Ransomware.Encryptor | Archivo: Simulated.Ransomware.Encryptor.txt | Hash: e29a876b913759bc5ebf8eedce53e77f22138c53c027d6d89d6208c644240fec
+[2026-06-07 21:44:52] ALERTA: Simulated threat: Simulated.Adware.Popup | Archivo: Simulated.Adware.Popup.txt | Hash: 470eed5b6f546e420020e5b6e0bc2813022334eef3c0ed4794fe030eb7822adb
+[2026-06-07 21:45:20] ALERTA: Simulated threat: Simulated.Keylogger.Basic | Archivo: Simulated.Keylogger.Basic.txt | Hash: 97c80b057d5269c455d2363487a098278df094ad6d6a5ca89f1bde049b7b8b7d
+[2026-06-14 15:42:59] ALERTA: Simulated threat: Simulated.Keylogger.Basic | Archivo: Simulated.Keylogger.Basic.txt | Hash: 97c80b057d5269c455d2363487a098278df094ad6d6a5ca89f1bde049b7b8b7d
+[2026-06-15 15:52:23] ALERTA: Simulated threat: Simulated.Keylogger.Basic | Archivo: Simulated.Keylogger.Basic.txt | Hash: 97c80b057d5269c455d2363487a098278df094ad6d6a5ca89f1bde049b7b8b7d
+[2026-06-16 20:18:45] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:19:03] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:23:10] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:29:09] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:29:10] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:29:10] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:29:10] ALERTA [MEDIUM]: Monitoreo del sistema desactivado | Origen: sistema
+[2026-06-16 20:29:10] ALERTA [MEDIUM]: Monitoreo de metricas desactivado | Origen: sistema
+[2026-06-16 20:29:22] ALERTA [LOW]: Nuevo usuario 'š»×w' creado con rol '' | Origen: sistema
+[2026-06-16 20:29:42] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:29:43] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:29:43] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:29:43] ALERTA [LOW]: Monitoreo del sistema activado | Origen: sistema
+[2026-06-16 20:29:43] ALERTA [LOW]: Monitoreo de metricas activado | Origen: sistema
+[2026-06-16 20:35:04] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:35:39] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:44:49] ALERTA [LOW]: Archivo creado/modificado | Origen: archivos
+[2026-06-16 20:45:31] ALERTA [MEDIUM]: Actualizacion base de datos local de hashes malignos | Origen: sistema
+[2026-06-16 20:50:39] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-16 20:57:48] ALERTA [MEDIUM]: Nuevas amenazas agregadas a la base de datos local | Origen: sistema
+[2026-06-25 21:11:20] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-25 21:36:15] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-25 21:48:07] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-25 22:03:43] ALERTA [MEDIUM]: Monitoreo del sistema desactivado | Origen: sistema
+[2026-06-25 22:03:44] ALERTA [LOW]: Monitoreo del sistema activado | Origen: sistema
+[2026-06-25 22:04:57] ALERTA [LOW]: Archivo creado/modificado | Origen: archivos
+[2026-06-25 22:05:19] ALERTA [LOW]: Archivo creado/modificado | Origen: archivos
+[2026-06-25 22:06:35] ALERTA: Simulated threat: Simulated.Worm.Spreader | Archivo: test_worm.txt | Hash: cf3d33e41a47dc0d22e8bee1e276161c1cca46d31527f310d12306d3bb378f50
+[2026-06-25 22:06:35] ALERTA [HIGH]: Hash malicioso detectado en 'test_worm.txt' â€” Firma: Simulated.Worm.Spreader | Origen: archivos
+[2026-06-25 22:08:16] ALERTA [HIGH]: Archivo 'test_worm.txt' puesto en cuarentena (chmod 0000) | Origen: archivos
+[2026-06-25 22:08:53] ALERTA: Simulated threat: Simulated.Spyware.Tracker | Archivo: Simulated.Spyware.Tracker.txt | Hash: 3b42566a98248e1644fa88f046117b1f9c8eb8bf02c78b11ae8c88193d366219
+[2026-06-25 22:08:53] ALERTA [HIGH]: Hash malicioso detectado en 'Simulated.Spyware.Tracker.txt' â€” Firma: Simulated.Spyware.Tracker | Origen: archivos
+[2026-06-25 22:08:58] ALERTA [HIGH]: Archivo 'test_worm.txt' puesto en cuarentena (chmod 0000) | Origen: archivos
+[2026-06-25 22:09:00] ALERTA [HIGH]: Archivo 'Simulated.Spyware.Tracker.txt' puesto en cuarentena (chmod 0000) | Origen: archivos
+[2026-06-25 22:25:28] ALERTA: Simulated threat: Simulated.Backdoor.Listener | Archivo: Simulated.Backdoor.Listener.txt | Hash: baa023f86cffefb2c3b21521cf59a72b7edc093484fb532c46c705426f8d661c
+[2026-06-25 22:25:28] ALERTA [HIGH]: Hash malicioso detectado en 'Simulated.Backdoor.Listener.txt' â€” Firma: Simulated.Backdoor.Listener | Origen: archivos
+[2026-06-25 22:25:38] ALERTA [HIGH]: Archivo 'Simulated.Backdoor.Listener.txt' puesto en cuarentena (chmod 0000) | Origen: archivos
+[2026-06-25 22:29:08] ALERTA: Simulated threat: Simulated.Worm.Spreader | Archivo: Simulated.Worm.Spreader.txt | Hash: cf3d33e41a47dc0d22e8bee1e276161c1cca46d31527f310d12306d3bb378f50
+[2026-06-25 22:29:08] ALERTA [HIGH]: Hash malicioso detectado en 'Simulated.Worm.Spreader.txt' â€” Firma: Simulated.Worm.Spreader | Origen: archivos
+[2026-06-25 22:29:20] ALERTA [HIGH]: Archivo 'Simulated.Worm.Spreader.txt' puesto en cuarentena (chmod 0000) | Origen: archivos
+[2026-06-25 22:29:52] ALERTA [LOW]: Archivo creado/modificado | Origen: archivos
+[2026-06-25 22:34:12] ALERTA [LOW]: Archivo creado/modificado | Origen: archivos
+[2026-06-25 22:37:00] ALERTA [LOW]: Inicio de sesion exitoso | Origen: sesion
+[2026-06-25 22:37:13] ALERTA [LOW]: Archivo creado/modificado | Origen: archivos

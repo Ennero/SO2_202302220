@@ -1,0 +1,6 @@
+[2026-06-05 20:22:00] ALERTA: Archivo malicioso detectado: virus.txt | Hash: c52a167bcc03d3adcc825c285155d85a99d38b074696d60d48863b975e2ea105
+[2026-06-05 21:03:45] ALERTA: Archivo malicioso detectado: virus.txt | Hash: c52a167bcc03d3adcc825c285155d85a99d38b074696d60d48863b975e2ea105
+[2026-06-05 21:04:31] ALERTA: Archivo malicioso detectado: virus.txt | Hash: 77769acacc595f82659bb6d656f372f99be75799066348b81f7fe4e70152efed
+[2026-06-07 21:44:44] ALERTA: Simulated threat: Simulated.Ransomware.Encryptor | Archivo: Simulated.Ransomware.Encryptor.txt | Hash: e29a876b913759bc5ebf8eedce53e77f22138c53c027d6d89d6208c644240fec
+[2026-06-07 21:44:52] ALERTA: Simulated threat: Simulated.Adware.Popup | Archivo: Simulated.Adware.Popup.txt | Hash: 470eed5b6f546e420020e5b6e0bc2813022334eef3c0ed4794fe030eb7822adb
+[2026-06-07 21:45:20] ALERTA: Simulated threat: Simulated.Keylogger.Basic | Archivo: Simulated.Keylogger.Basic.txt | Hash: 97c80b057d5269c455d2363487a098278df094ad6d6a5ca89f1bde049b7b8b7d

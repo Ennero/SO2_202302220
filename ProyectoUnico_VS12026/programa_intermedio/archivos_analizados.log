@@ -1,0 +1,10 @@
+[2026-06-16 20:44:49] Archivo: new_virus.txt | Estado: Limpio | Hash: ab98a19c86a3949426839bfa9542d6077b920cd43ea5d604c434b6078462e3fd
+[2026-06-25 22:04:57] Archivo: test.txt | Estado: Limpio | Hash: f2ca1bb6c7e907d06dafe4687e579fce76b37e4e93b7605022da52e6ccc26fd2
+[2026-06-25 22:05:19] Archivo: test_cat.txt | Estado: Limpio | Hash: e759bb27339fc45a6507c7d9bf45274d91f3e72097c2237b373ffca1e44a13a5
+[2026-06-25 22:06:35] Archivo: test_worm.txt | Estado: INFECTADO | Hash: cf3d33e41a47dc0d22e8bee1e276161c1cca46d31527f310d12306d3bb378f50
+[2026-06-25 22:08:53] Archivo: Simulated.Spyware.Tracker.txt | Estado: INFECTADO | Hash: 3b42566a98248e1644fa88f046117b1f9c8eb8bf02c78b11ae8c88193d366219
+[2026-06-25 22:25:28] Archivo: Simulated.Backdoor.Listener.txt | Estado: INFECTADO | Hash: baa023f86cffefb2c3b21521cf59a72b7edc093484fb532c46c705426f8d661c
+[2026-06-25 22:29:08] Archivo: Simulated.Worm.Spreader.txt | Estado: INFECTADO | Hash: cf3d33e41a47dc0d22e8bee1e276161c1cca46d31527f310d12306d3bb378f50
+[2026-06-25 22:29:52] Archivo: archivo_limpio.txt | Estado: Limpio | Hash: 38c46bc202de7da75578f72d6d5fbbfd9373ffa575fd82cdb76de4154bdd1bb6
+[2026-06-25 22:34:12] Archivo: archivo_limpido.txt | Estado: Limpio | Hash: 38c46bc202de7da75578f72d6d5fbbfd9373ffa575fd82cdb76de4154bdd1bb6
+[2026-06-25 22:37:13] Archivo: archivo_sdflimpido.txt | Estado: Limpio | Hash: 38c46bc202de7da75578f72d6d5fbbfd9373ffa575fd82cdb76de4154bdd1bb6
