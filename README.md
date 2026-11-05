@@ -6,7 +6,7 @@
 
 [![Linux](https://img.shields.io/badge/Linux_Kernel-6.8-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://kernel.org/)
 [![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
-[![React](https://img.shields.io/badge/React-18-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
+[![Preact](https://img.shields.io/badge/Preact-10-673AB8?style=for-the-badge&logo=preact&logoColor=white)](https://preactjs.com/)
 [![Vite](https://img.shields.io/badge/Vite-5.x-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![University](https://img.shields.io/badge/USAC-Sistemas_Operativos_2-003366?style=for-the-badge)](https://ingenieria.usac.edu.gt/)
@@ -37,7 +37,7 @@ SO2_202302220/
 ├── ProyectoUnico_VS12026/      # Proyecto Único: Sistema EDR Completo
 │   ├── linux-6.8/              # Archivos modificados del kernel (syscalls 462-464)
 │   ├── programa_intermedio/    # Daemon en C (HTTP, PAM, SHA-256, alertas)
-│   ├── dashboard/              # Frontend React + Vite + Tailwind
+│   ├── dashboard/              # Frontend Preact (compatibilidad React) + Vite + Tailwind
 │   ├── lkm/                    # Módulo del kernel (watcher.ko)
 │   ├── test/                   # Archivos de prueba para detección
 │   ├── technical_manual.md     # Manual Técnico
@@ -58,6 +58,10 @@ SO2_202302220/
 | **Kernel (Ring 0)** | C, Kprobes, Syscalls | 3 syscalls personalizadas (462-464) + LKM para monitoreo VFS |
 | **Daemon (Ring 3)** | C, pthreads, OpenSSL, PAM, jansson | Orquestador con 3 hilos concurrentes, API REST HTTP, firmas SHA-256 |
 | **Dashboard** | React, Vite, Tailwind CSS, Chart.js | Visualización en tiempo real con métricas, alertas y telemetría |
+
+### Preparar la máquina Linux
+
+Usar una VM Linux de pruebas. Antes de ejecutar `make`, seguir el [manual técnico](ProyectoUnico_VS12026/technical_manual.md) para preparar el kernel 6.8 con las syscalls de la entrega, sus headers y las bibliotecas PAM, OpenSSL y jansson. Un kernel estándar sin esas modificaciones no ofrece todas las operaciones del daemon. El dashboard usa Preact con compatibilidad de React.
 
 ### ⚙️ Guía de Ejecución Rápida
 
@@ -111,3 +115,5 @@ Este proyecto está liberado bajo la Licencia **MIT**. Consulta el archivo [LICE
 
 - **Enner Mendizabal** - [@Ennero](https://github.com/Ennero)  
 - *Ingeniería en Ciencias y Sistemas, Universidad de San Carlos de Guatemala.*
+
+Los cambios de kernel y fragmentos de Linux conservan sus licencias y avisos propios. La licencia MIT de la raíz corresponde al código original del proyecto que no tenga otra declaración.

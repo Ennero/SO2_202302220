@@ -7,15 +7,17 @@
 *   **Fecha:** 5 de Junio de 2026
 
 ## 1. Índice
-1. [Carátula](#1-carátula)
-2. [Índice](#2-índice)
-3. [Alcance del Sistema](#3-alcance-del-sistema)
-4. [Requisitos Técnicos de Ejecución](#4-requisitos-técnicos-de-ejecución)
-5. [Introducción y Arquitectura de la Solución](#5-introducción-y-arquitectura-de-la-solución)
-6. [Explicación del Módulo del Kernel (LKM)](#6-explicación-del-módulo-del-kernel-lkm)
-7. [Explicación del Daemon (User Space) y Lectura del JSON](#7-explicación-del-daemon-user-space-y-lectura-del-json)
-8. [Gestión de Logs y Evidencias (Capturas de Pantalla)](#8-gestión-de-logs-y-evidencias-capturas-de-pantalla)
-9. [Conclusiones Técnicas](#9-conclusiones-técnicas)
+- [2. Alcance del Sistema](#2-alcance-del-sistema)
+- [3. Requisitos Técnicos de Ejecución](#3-requisitos-t%C3%A9cnicos-de-ejecuci%C3%B3n)
+- [4. Introducción y Arquitectura de la Solución](#4-introducci%C3%B3n-y-arquitectura-de-la-soluci%C3%B3n)
+- [5. Explicación del Módulo del Kernel (LKM)](#5-explicaci%C3%B3n-del-m%C3%B3dulo-del-kernel-lkm)
+- [6. Explicación del Daemon (User Space) y Lectura del JSON](#6-explicaci%C3%B3n-del-daemon-user-space-y-lectura-del-json)
+- [7. Gestión de Logs y Evidencias (Capturas de Pantalla)](#7-gesti%C3%B3n-de-logs-y-evidencias-capturas-de-pantalla)
+- [8.1 Guía de Pruebas y Verificación del Sistema](#81-gu%C3%ADa-de-pruebas-y-verificaci%C3%B3n-del-sistema)
+  - [Paso 1: Compilación y Ejecución de los Componentes](#paso-1-compilaci%C3%B3n-y-ejecuci%C3%B3n-de-los-componentes)
+  - [Paso 2: Simulación de Amenazas (Archivos Maliciosos)](#paso-2-simulaci%C3%B3n-de-amenazas-archivos-maliciosos)
+  - [Paso 3: Pruebas de Archivos Seguros (Comprobación de Falsos Positivos)](#paso-3-pruebas-de-archivos-seguros-comprobaci%C3%B3n-de-falsos-positivos)
+- [9. Conclusiones Técnicas](#9-conclusiones-t%C3%A9cnicas)
 
 ## 2. Alcance del Sistema
 El presente sistema constituye una solución híbrida de Detección y Respuesta en Endpoints (EDR). Su alcance principal es auditar, detectar y reportar en tiempo real la creación o modificación de archivos dentro de un directorio específico y crítico (`/home/sopes/monitor/`). Operativamente, el sistema intercepta las llamadas de escritura a nivel del sistema operativo y las delega a un proceso de usuario para su análisis criptográfico contra una lista negra (Blacklist) de hashes predefinidos. Sus límites de operación dictan que no bloquea la escritura en tiempo real de forma preventiva (no actúa como un IPS en ring 0 absoluto), sino como un centinela reactivo que alerta sobre firmas sospechosas de manera paralela a la ejecución.
